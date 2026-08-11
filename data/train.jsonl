@@ -1,0 +1,40 @@
+{"text":"Question: What is Python?\nAnswer: Python is a high-level programming language."}
+{"text":"Question: What is Java?\nAnswer: Java is an object-oriented programming language."}
+{"text":"Question: What is AI?\nAnswer: Artificial Intelligence enables machines to perform tasks requiring human intelligence."}
+{"text":"Question: What is Machine Learning?\nAnswer: Machine Learning is a subset of AI that learns from data."}
+{"text":"Question: What is Deep Learning?\nAnswer: Deep Learning uses neural networks with many layers."}
+{"text":"Question: What is Natural Language Processing?\nAnswer: NLP is a field of AI that focuses on the interaction between computers and human language."}
+{"text":"Question: What is a neural network?\nAnswer: A neural network is a series of algorithms that attempt to recognize underlying relationships in a set of data."}
+{"text":"Question: What is supervised learning?\nAnswer: Supervised learning is a type of machine learning where the model is trained on labeled data."}
+{"text":"Question: What is unsupervised learning?\nAnswer: Unsupervised learning is a type of machine learning where the model finds patterns in unlabeled data."}
+{"text":"Question: What is reinforcement learning?\nAnswer: Reinforcement learning is a type of machine learning where an agent learns to make decisions by receiving rewards or penalties."}
+{"text":"Question: What is a programming language?\nAnswer: A programming language is a formal language comprising a set of instructions that produce various kinds of output."}
+{"text":"Question: What is a compiler?\nAnswer: A compiler is a program that translates code written in a high-level programming language into machine code."}
+{"text":"Question: What is an interpreter?\nAnswer: An interpreter is a program that executes code line by line, translating it into machine code on the fly."}
+{"text":"Question: What is an algorithm?\nAnswer: An algorithm is a step-by-step procedure for solving a problem or performing a task."}
+{"text":"Question: What is data science?\nAnswer: Data science is an interdisciplinary field that uses scientific methods, processes, algorithms, and systems to extract knowledge from data."}
+{"text":"Question: What is big data?\nAnswer: Big data refers to extremely large datasets that may be analyzed computationally to reveal patterns, trends, and associations."}
+{"text":"Question: What is cloud computing?\nAnswer: Cloud computing is the delivery of computing services over the internet, allowing for on-demand access to resources."}
+{"text":"Question: What is cybersecurity?\nAnswer: Cybersecurity involves protecting systems, networks, and programs from digital attacks."}
+{"text":"Question: What is blockchain?\nAnswer: Blockchain is a decentralized digital ledger that records transactions across many computers securely."}
+{"text":"Question: What is the Internet of Things (IoT)?\nAnswer: IoT refers to the network of physical objects embedded with sensors and software to connect and exchange data with other devices over the internet."}
+{"text":"Question: What is a database?\nAnswer: A database is an organized collection of data that can be easily accessed, managed, and updated."}
+{"text":"Question: What is SQL?\nAnswer: SQL (Structured Query Language) is a standard programming language used to manage and manipulate relational databases."}
+{"text":"Question: What is a web application?\nAnswer: A web application is a software application that runs on a web server and is accessed through a web browser."}
+{"text":"Question: What is a REST API?\nAnswer: A REST API (Representational State Transfer Application Programming Interface) is a set of rules that allows different software applications to communicate over the web."}
+{"text":"Question: What is a microservice architecture?\nAnswer: Microservice architecture is an architectural style that structures an application as a collection of loosely coupled services, each responsible for a specific functionality."}
+{"text":"Question: What is DevOps?\nAnswer: DevOps is a set of practices that combines software development (Dev) and IT operations (Ops) to shorten the development lifecycle and deliver high-quality software continuously."}
+{"text":"Question: What is version control?\nAnswer: Version control is a system that records changes to files over time so that you can recall specific versions later."}
+{"text":"Question: What is Git?\nAnswer: Git is a distributed version control system used to track changes in source code during software development."}
+{"text":"Question: What is continuous integration (CI)?\nAnswer: Continuous integration is a software development practice where developers frequently merge their code changes into a central repository, followed by automated builds and tests."}
+{"text":"Question: What is continuous deployment (CD)?\nAnswer: Continuous deployment is a software release process where code changes are automatically deployed to production after passing automated tests."}
+{"text":"Question: What is containerization?\nAnswer: Containerization is a lightweight form of virtualization that allows applications to run in isolated environments called containers."}
+{"text":"Question: What is Docker?\nAnswer: Docker is an open-source platform that automates the deployment of applications inside lightweight, portable containers."}
+{"text":"Question: What is Kubernetes?\nAnswer: Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications."}
+{"text":"Question: What is a virtual machine (VM)?\nAnswer: A virtual machine is an emulation of a computer system that runs on a physical machine, allowing multiple operating systems to run on a single physical machine."}
+{"text":"Question: What is an API?\nAnswer: An API (Application Programming Interface) is a set of rules and protocols that allows different software applications to communicate with each other."}
+{"text":"Question: What is a software framework?\nAnswer: A software framework is a reusable set of libraries or classes that provides a foundation for developing software applications."}
+{"text":"Question: What is a software library?\nAnswer: A software library is a collection of pre-written code that developers can use to optimize tasks and avoid writing code from scratch."}
+{"text":"Question: What is a software development kit (SDK)?\nAnswer: A software development kit is a collection of software tools and libraries that developers use to create applications for specific platforms or frameworks."}
+{"text":"Question: What is a programming paradigm?\nAnswer: A programming paradigm is a style or way of programming that provides a particular approach to solving problems and structuring code."}
+{"text":"Question: What is object-oriented programming (OOP)?\nAnswer: Object-oriented programming is a programming paradigm based on the concept of objects, which can contain data and methods to manipulate that data."}

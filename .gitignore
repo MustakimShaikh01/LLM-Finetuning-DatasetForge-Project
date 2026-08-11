@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Environment Variables
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Python build
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Test cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# MyPy/Pylance
+.mypy_cache/
+.pyright/
+
+# Hugging Face
+.cache/
+huggingface/
+hf_cache/
+
+# Model files
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.gguf
+*.onnx
+
+# Training outputs
+outputs/
+checkpoints/
+runs/
+wandb/
+tensorboard/
+
+# Kaggle
+kaggle.json
+
+# OS
+Thumbs.db
