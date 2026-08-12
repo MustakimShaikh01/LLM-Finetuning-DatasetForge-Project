@@ -158,6 +158,17 @@ python -m dataset_forge ingest \
 python -m dataset_forge validate outputs/datasetforge/kaggle/train.jsonl
 ```
 
+### Run a small training job
+
+```bash
+python week2/14_train_loop/train.py \
+  --dataset outputs/datasetforge/kaggle/train.jsonl \
+  --model gpt2 \
+  --output_dir outputs/training \
+  --epochs 1 \
+  --batch_size 2
+```
+
 ## Clear and rerun workflow
 
 To delete old generated dataset outputs and start fresh:

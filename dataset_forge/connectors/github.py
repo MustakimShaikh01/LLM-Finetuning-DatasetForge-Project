@@ -21,6 +21,7 @@ class GitHubConnector(BaseConnector):
         return target_dir
 
     def extract(self) -> List[Dict[str, Any]]:
+        repository_url = self._normalize_repo_url(self.identifier)
         repo_path = self.download()
         records: List[Dict[str, Any]] = []
         supported = {".md", ".rst", ".txt", ".py", ".json", ".yaml", ".yml", ".toml", ".ipynb"}
@@ -31,7 +32,7 @@ class GitHubConnector(BaseConnector):
 
             try:
                 if path.suffix.lower() == ".ipynb":
-                    records.extend(self._extract_ipynb(path, repo_path))
+                    records.extend(self._extract_ipynb(path, repo_path, repository_url))
                 else:
                     text = path.read_text(encoding="utf-8", errors="ignore").strip()
                     if text:
@@ -54,7 +55,7 @@ class GitHubConnector(BaseConnector):
             return f"https://github.com/{identifier}.git"
         raise ValueError("Invalid GitHub repository identifier")
 
-    def _extract_ipynb(self, path: Path, repo_path: Path) -> List[Dict[str, Any]]:
+    def _extract_ipynb(self, path: Path, repo_path: Path, repository_url: str) -> List[Dict[str, Any]]:
         records: List[Dict[str, Any]] = []
         with path.open("r", encoding="utf-8", errors="ignore") as fh:
             document = json.load(fh)

@@ -53,5 +53,11 @@ class DatasetPipeline:
         return deduped
 
     def _dedupe_key(self, item: Dict[str, Any]) -> str:
-        text = item.get("text") or item.get("source_path") or str(item)
-        return hash(text)
+        text = (
+            item.get("text")
+            or item.get("instruction")
+            or item.get("prompt")
+            or item.get("source_path")
+            or str(item)
+        )
+        return str(hash(text))
